@@ -1,0 +1,149 @@
+body, ul, li, p, a, input, h1, h2, h3, h4, h5, h6,img{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-decoration: none;
+			}
+			a{
+				color: black;
+			}
+			.cl:after{
+				content:"";
+				display: block;
+				clear: both;
+			}
+			.cl{
+				zoom:1;
+			}
+			.fl{
+				float: left;
+			}
+			.fr{
+				float: right;
+			}
+/*初始化*/
+.box{
+  width: 100%;
+	height: 100%;
+	/*border:1px solid red;*/
+}
+.header{
+	margin: 0 auto;
+	width: 100%;
+	height: 40%;
+}
+.header img{
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #e5e5e5;
+	border-bottom: none;
+}
+
+
+
+/*main*/
+.main{
+	margin: 0 auto;
+	width: 864px;
+	height:60%;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+}
+.main .main-left{
+	width: 35%;
+	/*background-color: blue;*/
+	border-right: 2px solid #e5e5e5;
+}
+.main .main-left .first{
+	margin-bottom:13%;
+}
+.main .main-left .first li{
+	margin-left: 21%;
+	width:52%;
+	line-height: 25px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+.main .main-left .first li a{
+	color:#585858;
+}
+.main .main-left .second li{
+	margin-bottom: 5%;
+	margin-left: 21%;
+	width: 52%;
+	text-align: center;
+}
+.main .main-left .second li a{
+	color: #7e7e7e;
+}
+
+.main .main-right{
+	width: 64.7%;
+}
+.m-r-top{
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 2px #e5e5e5 dashed;
+}
+.m-r-top li{
+	width: 45%;
+	/*border: 1px solid red;*/
+	margin-left: 15px;
+}
+.m-r-top li span{
+	color:black;
+}
+.ggys{
+	width: 100px;
+	line-height: 25px;
+	background-color: #4bacc6;
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+
+}
+
+.m-r-center{
+	width: 100%;
+	border-bottom: 2px dashed #e5e5e5;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.m-r-center div{
+	width:45%;
+	margin-left: 15px;
+}
+.m-r-center1{
+	width: 100%;
+	border-bottom: 2px dashed #e5e5e5;
+	padding: 20px 0;
+}
+.m-r-center1 p{
+	margin-left: 10px;
+}
+
+.m-r-btm{
+	width: 100%;
+	border-bottom: 2px dashed #e5e5e5;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+.m-r-btm span{
+	margin-left: 20px;
+	font-size: 12px;
+	color: #7e7e7e;
+}
+.m-r-btm .bbb,h5{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+
+/*bottom*/
+
+.bottom{
+	margin: 0 auto;
+	width: 864px;
+	height: 50px;
+	background-color: #4bacc6;
+}
